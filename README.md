@@ -143,3 +143,20 @@
 
 ## Stretch Goals
 
+* create functions for repetitive code
+  * `findById` takes an array and id and finds that id in array
+    * TDD this
+  * `loadData` takes a key, gets it from localStorage, and parses
+  * `saveData` takes a key and data, stringifies it, stores in localStorage
+* create user profile
+  * add a user profile to the top of every page
+  * user profile should display users race, username, current hp, current gold
+    * create a header at the top of each page to hold this info
+    * create a `loadProfile` function that will fill in the profile html
+* add action property to each quest
+  * an action is audio that will play when a choice is selected
+* create a `src/end/score-hp.js`
+  * this function will take hp return text
+  * if the user is dead
+  * if the user is below 35 health
+  * if the user is above or equal to 35 health
